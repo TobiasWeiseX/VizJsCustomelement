@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Custom Viz-Element</title>
+    <meta charset="utf-8">
+    <script src="viz.js"></script>
+    <script src="viz_widget.js"></script>
+</head>
+<body>
+    <dot-graph layout="fdp" style="width:800px; height:600px; box-shadow: 10px 5px 5px black;">
+
+    digraph G {
+
+        graph [
+            splines=spline
+        ];    
+        
+        
+        node [shape=rect];
+        A->B
+        A->C
+        A->D
+        C->D
+    
+    }    
+    
+    </dot-graph>
+
+
+    <dot-graph layout="dot" style="width:400px; height:300px; box-shadow: 10px 5px 5px black;">
+
+        digraph G {
+
+            graph [
+                splines=spline
+            ];    
+            
+            
+            node [shape=rect];
+            A->B
+            A->C
+            A->D
+            C->D
+        
+        }     
+        
+        </dot-graph>
+
+
+
+
+
+        <dot-graph layout="circo" style="width:400px; height:300px; box-shadow: 10px 5px 5px black;">
+
+            digraph G {
+
+                graph [
+                    splines=spline
+                ];    
+                
+                
+                node [shape=rect];
+                A->B
+                A->C
+                A->D
+                C->D
+            
+            }   
+            
+            </dot-graph>
+
+
+
+
+            <dot-graph layout="osage" style="width:400px; height:300px; box-shadow: 10px 5px 5px black;">
+
+                digraph G {
+    
+                    graph [
+                        splines=spline
+                    ];    
+                    
+                    
+                    node [shape=rect];
+                    A->B
+                    A->C
+                    A->D
+                    C->D
+                
+                }   
+                
+                </dot-graph>
+
+
+</body>
+</html>
